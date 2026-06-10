@@ -1,48 +1,36 @@
 # Random Life Button
 
-A small Expo + React Native app with one job: press **Me** and get a random line from one of several categories (dark humor, motivational quotes, odd thoughts, insults, and “get off the app” messages).
+A React Native mobile application built with Expo that generates random quotes, jokes, thoughts, and motivational messages with a single tap. The app demonstrates component-based architecture, state management, modal interactions, and randomized content delivery.
 
-> ⚠️ Content warning: this app includes profanity and offensive language.
+## Features
+
+* One-tap random content generation
+* Multiple content categories
+* Modal-based content display
+* Responsive mobile UI
+* Built with TypeScript
+* Cross-platform support (Android, iOS, and Web)
 
 ## Tech Stack
 
-- Expo (SDK 52)
-- React Native
-- Expo Router
-- TypeScript
-
-## Run Locally
-
-1. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app:
-
-   ```bash
-   npm run start
-   ```
-
-3. Open it using Expo Go, Android emulator, iOS simulator, or web.
-
-## Available Scripts
-
-- `npm run start` – start Expo dev server
-- `npm run android` – run on Android
-- `npm run ios` – run on iOS
-- `npm run web` – run in browser
-- `npm run lint` – run Expo lint
-- `npm test` – run Jest
+* React Native
+* Expo
+* Expo Router
+* TypeScript
 
 ## Project Structure
 
-- `/app/index.tsx` – main button screen and random category selection
-- `/components/modal.tsx` – modal used to show generated text
-- `/assets/data/data.js` – all quote/message datasets
+* `/app/index.tsx` – Main screen and random content generation logic
+* `/components/modal.tsx` – Reusable modal component
+* `/assets/data/data.js` – Content datasets
 
-## Notes
+## Learning Outcomes
 
-- Random selection currently picks a random category and a random message index.
-- Message arrays are curated manually in `assets/data/data.js`.
+Through this project I gained experience with:
+
+* React Native component development
+* State management using React hooks
+* Modal implementation and user interactions
+* TypeScript integration
+* Expo development workflow
+* Cross-platform mobile application development
